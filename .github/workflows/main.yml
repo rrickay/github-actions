@@ -11,6 +11,7 @@ jobs:
 
     steps:
       - run: echo "hello world"
+      - run: cargo --version
 
       - name: Checkout
         uses: actions/checkout@v4.2.2
